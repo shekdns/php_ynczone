@@ -1,0 +1,75 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://fonts.googleapis.com/css?family=Oswald&display=swap);
+
+/* 주문창 tr th 클래스  */
+.c {
+  border-bottom: 1px solid #444444;
+  padding: 10px;
+  font-size: 17px;
+  font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+#order_position {
+  position: relative;
+  width: 100%;
+  /* left: 450px; */
+  margin: 0 auto;
+  /* height: 110vh; */
+}
+#order_text {
+
+  padding-top: 40px;
+  font-size: 30px;
+  font-family: 'Nanum Gothic', serif;
+  /* height: 95vh; */
+}
+#order_list {
+  margin: 0 auto;
+
+}
+
+#order_list th{
+  font-size: 17px;
+  font-family: 'Nanum Gothic', serif;
+
+}
+#order_list input{
+  font-size: 17px;
+  font-family: 'Nanum Gothic', serif;
+  width: 200px;
+  height: 23px;
+
+}
+
+#order_form {
+  padding-top: 20px;
+
+}
+
+
+#total2 {
+      margin: 0 auto;
+      font-size: 30px;
+      font-family: 'Oswald', sans-serif;
+      float: right;
+      width: 700px;
+}
+#total3 {
+
+      font-size: 30px;
+      font-family: 'Oswald', sans-serif;
+      width: 1200px;
+      text-align: right;
+      padding-bottom: 40px;
+      margin: 0 auto;
+}
+#o_info {
+  margin: 0 auto;
+  font-size: 15px;
+  font-family: 'Nanum Gothic', serif;
+  width: 1200px;
+  text-align: center;
+  font-weight: bold;
+}

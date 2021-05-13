@@ -1,0 +1,27 @@
+
+#find_position {
+  position: relative;
+  width: 100%;
+  /* left: 450px; */
+  margin: 0 auto;
+  height: 65vh;
+
+}
+#find_text {
+  text-align:center;
+  padding-top: 40px;
+  font-size: 30px;
+  font-family: 'Nanum Gothic', serif;
+}
+
+#find_text td{
+  font-size: 17px;
+  font-family: 'Nanum Gothic', serif;
+}
+
+#find_text input{
+  font-size: 17px;
+  font-family: 'Nanum Gothic', serif;
+  /* width: 200px; */
+  height: 23px;
+}

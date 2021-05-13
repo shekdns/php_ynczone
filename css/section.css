@@ -1,0 +1,180 @@
+#main_position {
+  position: relative;
+  /* left: 20px; */
+  /* padding: 0; */
+  width: 100%;
+  height: 330vh;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+.main_wrapper {
+    margin: 0 auto;
+    width: 1200px;
+    height: 450px;
+    padding-bottom: 20px;
+}
+.slide_wrap {
+  z-index: 1;
+}
+.slide_content ul{
+  list-style: none outside none;
+  padding-left: 0;
+  margin: 0;
+}
+.slide_content .slide_content{
+  margin-bottom: 60px;
+
+}
+.main_slider li{
+  text-align: center;
+  color: #FFF;
+  background-size:cover;
+  background-position: center;
+
+}
+.main_slider h3 {
+  margin: 0;
+  padding: 100px 0;
+  height:250px;
+
+}
+.slide_content{
+  width: 100%;
+  height:300px;
+}
+/* .item1{background-image:url('http://han3283.cafe24.com/images/apple.jpg');} */
+.item1{background-image:url('/final2/image/slide1.jpg');}
+/* .item2{background-image:url('http://han3283.cafe24.com/images/cherry.jpg');} */
+.item2{background-image:url('/final2/image/slide2.jpg');}
+/* .item3{background-image:url('http://han3283.cafe24.com/images/strawberry.jpg');} */
+.item3{background-image:url('/final2/image/slide3.jpg');}
+.item4{background-image:url('/final2/image/slide4.jpeg');}
+.item5{background-image:url('/final2/image/ss5.jpg');}
+.item6{background-image:url('/final2/image/slide6.jpg');}
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://fonts.googleapis.com/css?family=Oswald&display=swap);
+.login_position {
+  position: relative;
+  width: 100%;
+  /* left: 450px; */
+  margin: 0 auto;
+  height: 120vh;
+}
+.login_text {
+
+  text-align:center;
+  padding-top: 40px;
+  font-size: 30px;
+  font-family: 'Nanum Gothic', serif;
+  height: 95vh;
+}
+
+#johwi {
+    font-family: 'Oswald', sans-serif;
+
+}
+.common_section {
+  /* text-align:center; */
+  padding-top: 40px;
+  margin-left: 370px;
+  /* font-size: 30px;
+  font-family: 'Nanum Gothic', serif; */
+
+}
+#product_main {
+  /* position: relative; */
+  height: 130vh;
+  padding-top: inherit;
+  background-color: #f2f2f2;
+}
+
+#pro_list {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-top: 1px solid #444444;
+}
+#page_num {
+  text-align: center;
+  margin: 30px 0;
+  padding-top: 30px;
+}
+#page_num li {
+   display: inline;
+   font-size: 15px;
+   font-family: 'Oswald', sans-serif;
+
+ }
+
+ #page_num2 {
+   text-align: center;
+   margin: 30px 0;
+   padding-top: 30px;
+   padding-bottom: 40px;
+ }
+ #page_num2 li {
+    display: inline;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+
+  }
+
+#hit_menu {
+  padding-top: inherit;
+  width: 100%;
+  height: 30px;
+  /* margin-top:auto; margin-bottom:auto;
+  top: 0; bottom:0; */
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  background-color: #f2f2f2;
+  /* padding-bottom: 15px; */
+}
+#main_table {
+  margin: 0 auto;
+}
+#term {
+  height: 50px;
+}
+
+#c_menu {
+  padding-top: 50px;
+  width: 100%;
+  height: 30px;
+  /* margin-top:auto; margin-bottom:auto;
+  top: 0; bottom:0; */
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  background-color: #f2f2f2;
+  /* padding-bottom: 15px; */
+}
+#c_main {
+  /* position: relative; */
+  /* height: 110vh; */
+  padding-top: 30px;
+  background-color: #f2f2f2;
+}
+#d_main {
+  /* position: relative; */
+  height: 110vh;
+  padding-top: 30px;
+  background-color: #f2f2f2;
+}
+#main_content {
+
+  height: 70vh;
+
+}
+
+.b_tr{
+  font-size: 14px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
+#total{
+padding-top: 70px;
+font-size: 30px;
+font-family: 'Oswald', sans-serif;
+}

@@ -1,0 +1,166 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+/* 초기화 코드 */
+* {
+  margin: 0; padding: 0;
+  font: normal 12px 'Dotum';
+
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  border: 0;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body{
+  margin: 0 auto;
+  position: relative;
+}
+/* 헤더 부분  */
+
+.wrapper {
+  margin: 0 auto;
+  width: 1200px;
+  height: 20vh;
+}
+#header_menu {
+  height: 80%;
+}
+#login_menu {
+  height: 20%;
+}
+.login_menu .sometimes:hover p {
+  color: darkgray;
+}
+.top {
+  background: none repeat scroll 0 0 #F0F0E9;
+  position: relative;
+  /* position: fixed; */
+  left: 0;
+  padding: 0;
+  width: 100%;
+  height: 25px;
+  padding-top: 7px;
+}
+.top p {
+  font-size: 12px;
+  line-height: 20px;
+}
+.top p:hover {
+  color: #a8a8a8;
+}
+.login_menu {
+  display: inline;
+}
+.login_menu li{
+  display: inline-block;
+}
+.login_menu .sometimes {
+  padding-right: 20px;
+
+}
+
+.login_menu .sometimes a p {
+  color :black;
+}
+.login_menu .sometimes:hover p {
+  color: darkgray;
+}
+.login_menu .test {
+  float: right;
+  padding-right: 20px;
+}
+.login_menu .test a p {
+  float: right;
+  color: black;
+}
+.login_menu .test:hover p {
+  color: darkgray;
+}
+
+.Slogo{
+  height: 150px; width: 150px;
+  float: left;
+  padding-right: 200px;
+}
+/* 헤더 부분 -> 검색창 */
+
+.serch {
+  padding: 55px 0px 0px 0px;
+
+
+}
+
+.green_window {
+	display: inline-block;
+	width: 366px; height: 34px;
+	border: 3px solid #fa8464;
+	background: white;
+  padding: 0px 10px 0px 10px;
+  margin: 0 auto;
+
+}
+.input_text {
+	width: 348px; height: 21px;
+	margin: 6px 0 0 9px;
+	border: 0;
+	line-height: 21px;
+	font-weight: bold;
+	font-size: 16px;
+	outline: none;
+
+}
+.sch_smit {
+	width: 54px; height: 40px;
+	margin: 0; border: 0;
+	vertical-align: top;
+	background: #fa8775;
+	color: white;
+	font-weight: bold;
+	border-radius: 1px;
+	cursor: pointer;
+}
+.sch_smit:hover {
+	background: #fca79a;
+}
+/* 슬라이드 쇼 */
+li {
+  list-style:none;
+}
+.slide{
+  height: 120px; width: 201px;
+  overflow:hidden;
+  float: right;
+  position: relative;
+  bottom: 80px;
+
+}
+.slide ul{width:140px * 3);display:flex;animation:slide 12s infinite;} /* slide를 8초동안 진행하며 무한반복 함 */
+.slide li{width:140px / 3);height:120px;}
+.slide li:nth-child(1){}
+.slide li:nth-child(2){}
+
+#main_header{
+  display: block;
+    height: 25vh;
+}
+
+
+@keyframes slide {
+  0% {margin-left:0;} /* 0 ~ 10  : 정지 */
+  10% {margin-left:0;} /* 10 ~ 25 : 변이 */
+  25% {margin-left:-100%;} /* 25 ~ 35 : 정지 */
+  35% {margin-left:-100%;} /* 35 ~ 50 : 변이 */
+  50% {margin-left:-200%;}
+  60% {margin-left:-200%;}
+  100% {margin-left:0;}
+}
